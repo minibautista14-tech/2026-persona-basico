@@ -3,10 +3,7 @@
  */
 package org.example
 
-class Persona(
-    private var nombre: String, 
-    private var apellido: String, 
-    private var edad: Int
+class Persona(private var nombre: String, private var apellido: String, private var edad: Int
 ) {
     override fun toString(): String {
         return "Persona: Nombre=${nombre}, Apellido=${apellido}, Edad=${edad}"
@@ -14,7 +11,7 @@ class Persona(
 }
 
 fun main() {
-    var p: Persona 
-    p = Persona("Bauti", "Mini", 16) 
-    println(p)
+    var persona: Persona 
+    persona = Persona("Bauti", "Mini", 16) 
+    println(persona)
 }
