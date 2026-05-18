@@ -13,5 +13,5 @@ class Persona(private var nombre: String, private var apellido: String, private 
 fun main() {
     var persona: Persona 
     persona = Persona("Bauti", "Mini", 16) 
-    println(persona)
+    println(persona.toString())
 }
